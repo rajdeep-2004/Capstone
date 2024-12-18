@@ -11,6 +11,11 @@
     font-style: normal;
 }
 
+.courier-prime-regular {
+    font-family: "Courier Prime", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 /*Styling the webpage*/
 
 body {
@@ -71,9 +76,10 @@ body {
 }
 
 .welcome-picture {
-    width: 90vw;
+    width: 95vw;
     border: 1px solid #00000000;
     margin-bottom: 200px;
+    border-radius: 8px;
 }
 
 /*Styling My Portfolio*/
@@ -91,68 +97,37 @@ body {
 }
 
 figcaption {
-    font-size: 30px;
+    font-size: 20px;
+    font-family: "Courier Prime";
+    font-weight: 400;
+}
+
+figure .illustrations{
+    font-size:17px;
 }
 
 /*Styling About Myself*/
 .about-myself {
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 90px;
 }
 
 .about-myself h2 {
     font-size: 50px;
     width: 900px;
     text-align: center;
+    font-family: "Calistoga";
 
-}
-
-.about-my-work {
-    display: flex;
-    justify-content: right;
-    margin-right: 20px;
 }
 
 .about-my-work p {
     font-size: 30px;
-    letter-spacing: 4px;
-
-}
-
-/*Styling the Summary - Contact Me*/
-.summary {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.summary-container{
-    display: flex;
-    gap: 200px;
+    margin-left: 50vw;
+    font-family: "Courier Prime";
     letter-spacing: 2px;
-}
-.summary-view > .contact-me{
-    font-size: 24px;
-}
 
-
-/*Styling the footer*/
-.footer{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.copyright{
-    font-weight: bold;
-}
-
-.contact-me-button{
-    border:1px solid rgb(215, 215, 215);
-    height: 25px;
-    width: 85px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
+    
 }
