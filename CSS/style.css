@@ -1,0 +1,158 @@
+/*Importing Different Fonts*/
+@font-face {
+    font-family: 'Porter Sans Block';
+    src: url('../Fonts/PorterSansBlock.woff') format('woff');
+
+}
+
+.calistoga-regular {
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Styling the webpage*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E8F4E7;
+}
+
+/*Styling the Header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 1px solid #1C221B;
+}
+
+
+.logo {
+    font-family: 'Porter Sans Block', serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: -4%;
+    color: #1C221B;
+}
+
+.navigation {
+    font-family: 'Calistoga';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+}
+
+.navigation a {
+    color: #1C221B;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/*Styling the main section*/
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-text {
+    font-family: 'Calistoga', 'serif';
+    font-size: 120px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.welcome-picture {
+    width: 90vw;
+    border: 1px solid #00000000;
+    margin-bottom: 200px;
+}
+
+/*Styling My Portfolio*/
+.portfolio-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.images>img {
+    border-radius: 8px;
+    width: 500px;
+}
+
+figcaption {
+    font-size: 30px;
+}
+
+/*Styling About Myself*/
+.about-myself {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-myself h2 {
+    font-size: 50px;
+    width: 900px;
+    text-align: center;
+
+}
+
+.about-my-work {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.about-my-work p {
+    font-size: 30px;
+    letter-spacing: 4px;
+
+}
+
+/*Styling the Summary - Contact Me*/
+.summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.summary-container{
+    display: flex;
+    gap: 200px;
+    letter-spacing: 2px;
+}
+.summary-view > .contact-me{
+    font-size: 24px;
+}
+
+
+/*Styling the footer*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright{
+    font-weight: bold;
+}
+
+.contact-me-button{
+    border:1px solid rgb(215, 215, 215);
+    height: 25px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
