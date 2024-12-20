@@ -1,14 +1,18 @@
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
+
     .portfolio-images {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .header {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .summary-container {
+        display: flex;
         flex-direction: column;
         margin: 0;
         flex-wrap: wrap;
@@ -18,52 +22,62 @@
     .contact-me {
         margin: 0;
     }
-    figure{
+
+    figure {
         margin: 0;
         margin-bottom: 41px;
     }
-    .logo{
+
+    .logo {
         font-size: 25px;
         margin-bottom: 20px;
+    }
 
+    .images img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
-    .images img{
-        width: 90vw;
+
+    .welcome-text {
+        font-size: 8vw;
     }
-    .welcome-text{
-       font-size: 60px;
-    }
-    .navigation a{
+
+    .navigation a {
         display: block;
         text-align: center;
         margin-bottom: 20px;
     }
-    .about-myself h2{
-        margin: 0 30px;
+
+    .about-myself h2 {
+        margin: 0 15px;
+
         font-size: 30px;
     }
-    .about-my-work p{
+
+    .about-my-work p {
         margin-left: 11px;
         margin-right: 11px;
-        font-size: 21px;
+        font-size: 18px;
     }
-    .summary-view{
-        margin-left:16px;
+
+    .summary-view {
+        margin-left: 16px;
         margin-top: 100px;
     }
-    .footer{
-        margin-top: -97px;
+
+    .footer {
+        margin-top: 0;
     }
-    .contact-me-button a input{
-        padding: 0px 4px 1px 4px;
-        margin-right: 20px;
-        font-size: 14px;
+
+    .contact-me-button a input {
+        padding: 10px;
+        font-size: 16px;
     }
+
     .copyright {
         padding-left: 8px;
         padding-bottom: 3px;
         font-size: 17px;
     }
-    
 }
-
