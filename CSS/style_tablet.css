@@ -1,1 +1,32 @@
-@media only screen
+@media (min-width:768px) and (max-width:1024px){
+    .portfolio-images{
+        grid-template-columns: 1fr 1fr;
+    }
+    .logo{
+        font-size: 28px;
+    }
+    .navigation{
+        font-size: 24px;
+    }
+    .images img{
+        width: 433px;
+    }
+    .about-myself h2{
+        font-size: 39px;
+        width: 762px;
+    }
+    .about-my-work p{
+        font-size: 24px;
+    }
+    .summary-view{
+        margin-left: -214px;
+    }
+    .summary-container{
+        margin-left:446px;
+        margin-right:100px;
+        justify-content: space-between;
+    }
+    .welcome-text{
+        font-size: 108px;
+    }
+}
