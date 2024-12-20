@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 /*Importing Different Fonts*/
 @font-face {
     font-family: 'Porter Sans Block';
@@ -135,7 +138,7 @@ body {
     80%{
         transform: rotate(-10deg);
     }
-
+}
 
 figcaption {
     font-size: 20px;
@@ -161,7 +164,11 @@ figure .illustrations{
     width: 900px;
     text-align: center;
     font-family: "Calistoga";
+    transition: all 1s;
 
+}
+.about-myself h2:hover{
+    scale: 1.2;
 }
 
 .about-my-work p {
@@ -171,6 +178,8 @@ figure .illustrations{
     letter-spacing: 2px;
     margin-right: 44px;
 }
+
+
 
 .summary-view{
     margin-top: 150px;
@@ -189,6 +198,13 @@ figure .illustrations{
 .summary-container p{
     font-family: "Courier Prime";
     font-size:20px;
+    transition: all 0.3s ease-in-out;
+}
+.summary-container p:hover{
+    /* background-color:#cff3cc; */
+    border-radius: 10px;
+    scale: 1.2;
+    cursor: pointer;
 }
 
 .footer{
@@ -204,7 +220,7 @@ figure .illustrations{
     font-size: 30px;
 }
 
-.contact-me-button input{
+.contact-me-button a input{
     padding: 10px 20px;
     margin-right: 48px;
     border-radius: 8px;
@@ -212,4 +228,9 @@ figure .illustrations{
     font-size: 20px;
     font-family: "Courier Prime";
     background-color: #E8F4E7;
+}
+.contact-me-button a input:hover{
+    background-color:#cff3cc;
+    cursor: pointer;
+    scale: 1.2;
 }
