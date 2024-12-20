@@ -1,8 +1,10 @@
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
     .portfolio-images {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .header {
@@ -71,8 +73,11 @@
     }
 
     .contact-me-button a input {
-        padding: 10px;
-        font-size: 16px;
+        padding: 3px;
+        font-size: 11px;
+        padding-right: -12px;
+        margin-right: 9px;
+        margin-bottom: 6px;
     }
 
     .copyright {
