@@ -9,7 +9,10 @@
     }
 
     .summary-container {
+        flex-direction: column;
         margin: 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .contact-me {
@@ -17,9 +20,11 @@
     }
     figure{
         margin: 0;
+        margin-bottom: 41px;
     }
     .logo{
         font-size: 25px;
+        margin-bottom: 20px;
 
     }
     .images img{
@@ -31,7 +36,34 @@
     .navigation a{
         display: block;
         text-align: center;
-        
+        margin-bottom: 20px;
     }
-
+    .about-myself h2{
+        margin: 0 30px;
+        font-size: 30px;
+    }
+    .about-my-work p{
+        margin-left: 11px;
+        margin-right: 11px;
+        font-size: 21px;
+    }
+    .summary-view{
+        margin-left:16px;
+        margin-top: 100px;
+    }
+    .footer{
+        margin-top: -97px;
+    }
+    .contact-me-button a input{
+        padding: 0px 4px 1px 4px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .copyright {
+        padding-left: 8px;
+        padding-bottom: 3px;
+        font-size: 17px;
+    }
+    
 }
+
