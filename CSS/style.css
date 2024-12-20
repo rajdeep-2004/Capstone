@@ -59,6 +59,12 @@ body {
     text-decoration: none;
     margin-right: 20px;
 }
+.navigation a:hover{
+    background-color: #cff3cc;
+    border-radius: 20px;
+    padding: 4px;
+}
+
 
 /*Styling the main section*/
 .main-content {
@@ -73,6 +79,17 @@ body {
     font-size: 120px;
     line-height: 1.2;
     text-align: center;
+    animation: welcome 3s ease-in-out forwards;
+}
+@keyframes welcome{
+    0%{ 
+        opacity: 0; 
+        color: black; 
+    }
+    100%{ 
+        opacity: 1; 
+        color: black; 
+    }
 }
 
 .welcome-picture {
@@ -91,10 +108,34 @@ body {
     margin-bottom: 30px;
 }
 
-.images>img {
+
+.images img {
     border-radius: 8px;
     width: 500px;
 }
+.images img:hover{
+    box-shadow: 0px 1px 9px #090909;
+}
+.images:hover{
+    animation: images 0.5s ease-in-out;
+}
+@keyframes images{
+    0%{
+        transform: rotate(-10deg);
+    }
+    20%{
+        transform: rotate(10deg);
+    }
+    40%{
+        transform: rotate(-10deg);
+    }
+    60%{
+        transform: rotate(10deg);
+    }
+    80%{
+        transform: rotate(-10deg);
+    }
+
 
 figcaption {
     font-size: 20px;
